@@ -135,23 +135,7 @@ default_values = {
     "True Colour": 10.0
 }
 
-# === Inputs ===
-# st.subheader("🔢 Entrez les paramètres mesurés :")
-# input_values = {}
-# for feature in normes:
-#     input_values[feature] = st.number_input(
-#         feature, min_value=0.0, max_value=1000.0, value=default_values[feature]
-#     )
 
-# === Inputs organisés en lignes (2 par ligne) ===
-# st.subheader("🔢 Entrez les paramètres mesurés :")
-# input_values = {}
-# cols = st.columns(2)
-# for i, feature in enumerate(normes):
-#     col = cols[i % 2]
-#     input_values[feature] = col.number_input(
-#         feature, min_value=0.0, max_value=1000.0, value=default_values[feature]
-#     )
 st.subheader("🔢 Entrez les paramètres mesurés :")
 
 # 📥 Partie Upload CSV
